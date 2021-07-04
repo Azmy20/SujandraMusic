@@ -28,17 +28,20 @@ logging.basicConfig(level=logging.INFO)
 )
 async def start_(client: Client, message: Message):
     await message.reply_text(
-        f"""<b>Haii {message.from_user.first_name} saya adalah {PROJECT_NAME}\n
-Saya Adalah Bot Music Group, Yang dapat Memutar Lagu di Voice Chat Group Anda Dengan Mudah
-Saya Memiliki Banyak Fitur Seperti :
-• Memutar Musik.
-• Mendownload Lagu.
-• Mencari Lagu Yang ingin di Putar atau di Download.
-• Gunakan Perintah » /help « untuk Mengetahui Fitur Lengkapnya
-
-📌 Special Thanks To : {OWNER}
-
-Ingin Menambahkan Saya ke Grup Anda? Tambahkan Saya Ke Group Anda!
+        f"""<b>👋🏻 Hallo, Nama saya [{PROJECT_NAME}](https://telegra.ph/file/f2833209bd6c5853f9359.jpg)
+Saya Telah Di Rancang Khusus Oleh Seseorang Dengan Segabut Mungkin
+Dan Saya Bisa Menemani Anda Mendengarkan Music Dariku! Fitur Yang 
+Saya Punya :
+┈───────────────────┈
+☑️ Saya memiliki banyak fitur untuk anda yang suka lagu
+🔘 Memutar lagu di group 
+🔘 Mendownload lagu
+🔘 Mendownload video
+🔘 Mencari link youtube
+🔘 Mencari lirik lagu
+┈───────────────────┈
+Created Bot ❤️ by {OWNER}
+☑️ Klik tombol bantuan untuk informasi lebih lanjut
 </b>""",
 
 # Edit Yang Seharusnya Lu Edit Aja:D
